@@ -84,7 +84,9 @@
                         
                     <?php } ?>
             </table>
+            <?php if($_SESSION['rol']){ ?>
             <br><a class="btn btn-success">Exportar a excel</a><br>
+            <?php } ?>
             <?php } ?>
         </div>		
 </div>   
