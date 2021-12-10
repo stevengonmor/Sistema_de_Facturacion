@@ -49,8 +49,8 @@
                 <th>Cliente</th>
                 <th>Fecha</th>
                 <th>Total</th>
+                <th>Ver</th>
                 <th>Imprimir</th>
-                <th>Editar</th>
                 <th>Borrar</th>
                 </tr>
             </thead>
@@ -61,9 +61,9 @@
                     <td><?php echo $invoice->customer_name?></td>
                     <td><?php echo $invoice_date?></td>
                     <td><?php echo $invoice->total?></td>
-                    <td><a href="?c=print_invoice&id=<?php echo $invoice->order_id?>" title="Imprimir"><button class="btn btn-primary btn-sm"><i class="fa fa-print"></i></button></a></td>
-                    <td><a href="?c=edit_invoice&id=<?php echo $invoice->order_id?>"  title="Editar"><button class="btn btn-success btn-sm"><i class="fa fa-edit"></i></button></a></td>
-                    <td><a href="?c=delete_invoice&id=<?php echo $invoice->order_id?>" title="Eliminar"><button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button></a></td>
+                    <td><a href="?c=read_invoice&order_id=<?php echo $invoice->order_id ?>" title="View Invoice"><button class="btn btn-primary btn-sm"><i class="fa fa-eye"></i></button></a></td>
+                    <td><a href="?c=print_invoice&order_id=<?php echo $invoice->order_id ?>" title="Print Invoice"><button class="btn btn-primary btn-sm"><i class="fa fa-print"></i></button></a></td>
+                    <td><a href="?c=delete_invoice&order_id=<?php echo $invoice->order_id ?>" title="Delete Invoice"><button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button></a></td>
                     </tr>
             <?php } ?>
             </table>
