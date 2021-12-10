@@ -1,0 +1,146 @@
+body{
+    min-height: 100vh;
+    background-color: white;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+}   
+.content-element{
+    margin-top: 25px;
+    margin: 0 auto;
+    text-align: center;
+}
+#header-left{
+    text-align: left;
+}
+.info {
+    font-weight: bold;
+    color:black;
+    font-size: 30px;
+    text-decoration: none;
+    text-shadow: 10px 8px 8px black;
+}
+.navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+}
+.navbar-nav a:hover {
+    color: #2B7A78;
+}
+.icons-navbar{
+    width: 30px;
+    height: 30px;
+}
+
+.tittle{
+    color:black;
+    font-weight:bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+.full-screen{
+    min-height: 620px;
+    padding-top: 25px;
+}
+#carousel-main{
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 10px 8px 8px black;
+}  
+
+.soft-blue-background{
+    background-color: #e8f3fd;
+}
+
+.description{
+    padding: 15px 32px;
+    background-color: #e8f3fd;
+    text-align: center;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px black;
+}
+
+::placeholder { 
+    color: #17252a;
+    text-shadow: none;
+}
+
+select {
+    border: 1px solid #fff;
+    background-color: #c3e3fd;
+    border: none;
+}
+.dropdown-text{
+    color: #17252a;
+    text-shadow: none;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.all-height{
+    min-height:375px;
+}  
+
+#img-box{
+    max-width: 100%; 
+    max-height: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 10px 8px 8px black;
+}
+
+.icon-padding{
+    padding-right: 20px;
+    margin:auto;
+}
+
+.profile-pic-back {
+    display:block;
+    margin: auto;
+    word-wrap: break-word;
+}
+
+h6 {
+    font-size: 18px
+}
+
+.card-block {
+    padding: 1.25rem
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0
+}
+
+.f-w-600 {
+    font-weight: 600
+}
+
+.padd-bottom {
+    padding-bottom: 1;
+}
+
+.margin-top-space{
+    margin-top: 10px;
+}
+
+
+select {
+    width: 30%;
+    margin: 0;
+    font-size: 100%;
+    padding: 5px 10px 5px 10px;
+    font-family: Segoe UI, Helvetica, sans-serif;
+    border: 0;
+    border: 1px solid #D0D0D0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;    
+}
