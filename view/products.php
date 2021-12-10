@@ -10,7 +10,7 @@
                 <th>Precio</th>
                 <th>Estado</th>
                 <th>Editar</th>
-                <th>Borrar</th>
+                <th>Eliminar</th>
                 </tr>
             </thead>
             <?php foreach ($products as $product) { ?>       

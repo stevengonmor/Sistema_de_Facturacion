@@ -24,7 +24,7 @@
                 <input class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-11" type="text" name="phone" value="<?php echo $customer->phone ?>">
             </div>
             </div><br>
-            <input class= "btn btn-primary" type="submit" value="Enviar">
+            <input class= "btn btn-primary" type="submit" value="Actualizar">
         </form>
     </div>
 </div> 

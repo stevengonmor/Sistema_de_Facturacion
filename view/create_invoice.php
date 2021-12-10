@@ -76,7 +76,7 @@
             </div>  
             <div class="row">
                 <div class="col-xs-12">
-                <button class="btn btn-danger delete" id="removeRows" type="button">-   Borrar</button>
+                <button class="btn btn-danger delete" id="removeRows" type="button">-   Eliminar</button>
                 <button class="btn btn-success" id="addRows" type="button">+ Agregar</button>
                 </div>
             </div>
@@ -128,7 +128,7 @@
             </div>
             <div> 
                 <input type="hidden" name="numDetail" id="numDetail" value="<?php echo $_SESSION['id']; ?>">
-                <input class="btn btn-primary" type="submit" value="Guardar">
+                <input class="btn btn-primary" type="submit" value="Crear">
             </div>
         </form>
     </div>        

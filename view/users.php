@@ -13,7 +13,7 @@
                 <th>E-mail</th>
                 <th>Rol</th>
                 <th>Editar</th>
-                <th>Borrar</th>
+                <th>Eliminar</th>
                 </tr>
             </thead>
             <?php foreach ($users as $user) { ?>       

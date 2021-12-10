@@ -66,7 +66,7 @@
                     <th>Total</th>
                     <th>Ver</th>
                     <th>Imprimir</th>
-                    <th>Borrar</th>
+                    <th>Eliminar</th>
                 </tr>
                 </thead>
                 <?php		

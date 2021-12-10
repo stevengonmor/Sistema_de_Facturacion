@@ -11,7 +11,7 @@
                 <th>E-mail</th>
                 <th>Teléfono</th>
                 <th>Editar</th>
-                <th>Borrar</th>
+                <th>Eliminar</th>
                 </tr>
             </thead>
             <?php foreach ($customers as $customer) { ?>       

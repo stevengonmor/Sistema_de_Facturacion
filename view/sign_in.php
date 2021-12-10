@@ -24,7 +24,7 @@
                 <input class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-11" type="file" name="profile_picture" placeholder="Foto de Perfil">
             </div><br>
             <p class="mb-4">La foto de perfil es opcional, puedes agregarla más tarde.</p><br>
-            <input class= "btn btn-primary" type="submit" value="Enviar">
+            <input class= "btn btn-primary" type="submit" value="Registrar">
             </div>
         </form>
     </div>
