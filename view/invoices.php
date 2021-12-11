@@ -55,7 +55,7 @@
                     <input class="btn btn-primary" type="submit" value="Buscar">
                 </form><br>
             </div>	 
-            <h3> <?php if($msg){ echo $msg; } else {?> </h3>
+            <h3> <?php if(!$invoices){ echo $msg; } else {?> </h3>
                 <h1 class="title mt-5">Lista de Facturas <a href="?c=create_invoice" title="Crear Factura"><button class="btn btn-primary btn-sm"><i class="fas fa-plus-square"></i></button></a></i> </h1>
             <table id="data-table" class="table table-condensed table-hover table-striped">
                 <thead>
@@ -80,13 +80,9 @@
                             <td><a href="?c=read_invoice&order_id=<?php echo $invoice->order_id ?>" title="View Invoice"><button class="btn btn-primary btn-sm"><i class="fa fa-eye"></i></button></a></td>
                             <td><a href="?c=print_invoice&order_id=<?php echo $invoice->order_id ?>" title="Print Invoice"><button class="btn btn-primary btn-sm"><i class="fa fa-print"></i></button></a></td>
                             <td><a href="?c=delete_invoice&order_id=<?php echo $invoice->order_id ?>" title="Delete Invoice"><button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button></a></td>
-                        </tr>
-                        
+                        </tr> 
                     <?php } ?>
             </table>
-            <?php if($_SESSION['rol']){ ?>
-            <br><a class="btn btn-success">Exportar a excel</a><br>
-            <?php } ?>
             <?php } ?>
         </div>		
 </div>   
