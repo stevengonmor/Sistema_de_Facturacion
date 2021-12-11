@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <title>Sistema de Facturacion</title>
@@ -67,6 +66,7 @@
             } else {
                 include "controller/read_invoices.php";
             }
+             if(!isset($output)){
             ?>
             <br><br>
             <div id="content-element">
@@ -81,6 +81,7 @@
                         <a href="">Digite aquí el nombre de su empresa</a>
                     </div><br>
                 </footer>
+                <?php }?> 
                 <?php }?>
             </div>
         </div>

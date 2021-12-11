@@ -184,14 +184,5 @@ class invoice {
         $pdo = new Connection();
         $results = $pdo->open()->prepare($query);
         return $results->execute();
-    }
-
-
-
-
-
-
-
-
-    
+    } 
 }

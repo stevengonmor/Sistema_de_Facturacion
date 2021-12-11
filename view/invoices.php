@@ -8,8 +8,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
         <div class="content-element row description margin-top-space col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">
-            <div class="contenedor-search col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 offset-xs-3 offset-sm-3 offset-md-3 offset-lg-3 offset-xl-3">
-            <h3>Generar Reporte</h3><hr>  
+            <div class="contenedor-search col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 offset-xs-3 offset-sm-3 offset-md-3 offset-lg-3 offset-xl-3">  
             <form id="bycustomerid" method="POST" action='./?c=read_invoices'> 
                     <input id="search" type="text" name="search" class="form-control rounded" value="" placeholder="por codigo cliente" aria-label="Search" aria-describedby="search-addon" />
                     <br><input class="btn btn-primary" type="submit" value="Buscar"><br>
@@ -83,6 +82,13 @@
                         </tr> 
                     <?php } ?>
             </table>
+                <?php if(isset($date1) && isset($date2)){?>
+                <br><a href="?c=report_invoices&date1=<?php echo $date1 ?>&date2=<?php echo $date2 ?>"class="btn btn-success">Exportar a excel</a><br>
+                <?php }else if (isset($cus_id)) {?>
+                    <br><a href="?c=report_invoices&cus_id=<?php echo $cus_id ?>"class="btn btn-success">Generar Reporte</a><br>
+                <?php }else {?>
+                    <br><a href="?c=report_invoices"class="btn btn-success">Exportar a excel</a><br>
+                    <?php }?>
             <?php } ?>
         </div>		
 </div>   

@@ -14,7 +14,8 @@ if ($_POST) {
             $msg = "No hay facturas entre estas fechas";
         }
     } else if(isset($_POST['search'])) {
-        $invoices = $invoice->selectReportByClient($_POST['search']);
+        $cus_id = $_POST['search'];
+        $invoices = $invoice->selectReportByClient($cus_id);
         if ($invoices) {
             $msg = "Facturas del cliente:";
         } else {
