@@ -3,12 +3,12 @@
 
     <div class="container">
       <div class="row">
-          <div class="col-xs-4"><img src="img/logo-goes-here.jpg"></div>
+          <div class="col-xs-4"><img src="img/logo.jpg"></div>
       </div>
         <hr>
         <div class="row">
             <div class="col-xs-2">
-                <div class="titulo">Numero Factura: <?php echo $current_invoice->order_id ?></div>
+                <div class="titulo">Número Factura: <?php echo $current_invoice->order_id ?></div>
             </div>
             <div class="col-xs-2">
                 <div class="titulo">Cajero: <?php echo $current_invoice->get_cashier_id() ?></div>
@@ -16,23 +16,23 @@
         </div>   
         <div class="row">
             <div class="col-xs-2">
-                <div class="titulo">Fecha Emision: <?php echo $current_invoice->date ?></div>
+                <div class="titulo">Fecha Emisión: <?php echo $current_invoice->date ?></div>
             </div>
             <hr>
             <div class="col-xs-2">
-                <div class="titulo">Informacion del cliente:   </div>
+                <div class="titulo">Información del cliente:   </div>
             </div>
             <div class="col-xs-2">
                 <div class="titulo">Nombre: <?php echo $current_invoice->customer_name ?></div>
             </div>
             <div class="col-xs-2">
-                <div class="titulo">Cedula: <?php echo $current_invoice->get_customer_id() ?></div>
+                <div class="titulo">Cédula: <?php echo $current_invoice->get_customer_id() ?></div>
             </div>
             <div class="col-xs-2">
-                <div class="titulo">Numero: <?php echo $current_invoice->customer_phone ?></div>
+                <div class="titulo">Número: <?php echo $current_invoice->customer_phone ?></div>
             </div>
             <div class="col-xs-2">
-                <div class="titulo">Correo: <?php echo $current_invoice->customer_email ?></div>
+                <div class="titulo">Correo Electrónico: <?php echo $current_invoice->customer_email ?></div>
             </div>
         </div> 
         <hr> 
@@ -43,7 +43,7 @@
         <table class="table table-bordered">
         <thead>
           <tr>
-              <th><h4 class="titulo">&nbsp;&nbsp;&nbsp;Codigo&nbsp;&nbsp;&nbsp;</h4></th>
+              <th><h4 class="titulo">&nbsp;&nbsp;&nbsp;Código&nbsp;&nbsp;&nbsp;</h4></th>
         <th><h4 class="titulo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nombre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
         <th><h4 class="titulo">&nbsp;&nbsp;&nbsp;&nbsp;Cantidad&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>
         <th><h4 class="titulo">&nbsp;&nbsp;&nbsp;&nbsp;Precio Unitario&nbsp;&nbsp;&nbsp;&nbsp;</h4></th>

@@ -82,13 +82,15 @@
                         </tr> 
                     <?php } ?>
             </table>
-                <?php if(isset($date1) && isset($date2)){?>
-                <br><a href="?c=report_invoices&date1=<?php echo $date1 ?>&date2=<?php echo $date2 ?>"class="btn btn-success">Exportar a excel</a><br>
+                <?php if($_SESSION['rol']){
+                if(isset($date1) && isset($date2)){?>
+                <br><a href="?c=report_invoices&date1=<?php echo $date1 ?>&date2=<?php echo $date2 ?>"class="btn btn-success">Generar Reporte</a><br>
                 <?php }else if (isset($cus_id)) {?>
                     <br><a href="?c=report_invoices&cus_id=<?php echo $cus_id ?>"class="btn btn-success">Generar Reporte</a><br>
                 <?php }else {?>
-                    <br><a href="?c=report_invoices"class="btn btn-success">Exportar a excel</a><br>
-                    <?php }?>
-            <?php } ?>
+                    <br><a href="?c=report_invoices"class="btn btn-success">Generar Reporte</a><br>
+                    <?php }
+                }
+             } ?>
         </div>		
 </div>   

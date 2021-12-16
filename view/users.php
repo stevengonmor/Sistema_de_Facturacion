@@ -10,7 +10,7 @@
                 <tr>
                 <th>ID</th>
                 <th>Nombre</th>
-                <th>E-mail</th>
+                <th>Correo Electrónico</th>
                 <th>Rol</th>
                 <th>Editar</th>
                 <th>Eliminar</th>

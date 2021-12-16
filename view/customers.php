@@ -8,7 +8,7 @@
                 <th>ID</th>
                 <th>Nombre</th>
                 <th>Cédula</th>
-                <th>E-mail</th>
+                <th>Correo Electrónico</th>
                 <th>Teléfono</th>
                 <th>Editar</th>
                 <th>Eliminar</th>

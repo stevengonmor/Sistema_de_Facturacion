@@ -22,7 +22,7 @@
                 <header>
                     <div id="header-left">
                         <h1 class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
-                            <a href='./?c=read_invoices'> <img class=" col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1" src="./img/logo-goes-here.jpg" alt="Logo"></a>  Sistema de Facturación</h1>
+                            <a href='./?c=read_invoices'> <img class=" col-1 col-sm-1 col-md-1 col-lg-1 col-xl-1" src="./img/logo.jpg" alt="Logo"></a>  Sistema de Facturación</h1>
                     </div>
                     <nav class="navbar navbar-expand-lg navbar-light description">
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
