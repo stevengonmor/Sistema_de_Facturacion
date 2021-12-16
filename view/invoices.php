@@ -54,12 +54,13 @@
                     <input class="btn btn-primary" type="submit" value="Buscar">
                 </form><br>
             </div>	 
+            <h1 class="title mt-5">Lista de Facturas <a href="?c=create_invoice" title="Crear Factura"><button class="btn btn-primary btn-sm"><i class="fas fa-plus-square"></i></button></a></i> </h1>
             <h3> <?php if(!$invoices){ echo $msg; } else {?> </h3>
-                <h1 class="title mt-5">Lista de Facturas <a href="?c=create_invoice" title="Crear Factura"><button class="btn btn-primary btn-sm"><i class="fas fa-plus-square"></i></button></a></i> </h1>
+                
             <table id="data-table" class="table table-condensed table-hover table-striped">
                 <thead>
                 <tr>
-                    <th>Numero de Factura</th>
+                    <th>Número de Factura</th>
                     <th>Nombre del cliente</th>
                     <th>Fecha</th>
                     <th>Total</th>

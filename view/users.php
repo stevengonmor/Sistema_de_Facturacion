@@ -2,7 +2,7 @@
 <div class="row description margin-top-space col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">    
 <p> <?php $user->count_cashiers() ?></p> 
 <?php if($user->count_cashiers() < 5) { ?>    
-<a class="offset-5" href="?c=sign_in"  title="Registrar Cajero"><button class="btn btn-primary btn-sm"><i class="fa fa-plus"> Rgistrar Usuario</i></button></a>            
+<a class="offset-5" href="?c=sign_in"  title="Registrar Cajero"><button class="btn btn-primary btn-sm"><i class="fa fa-plus"> Registrar Usuario</i></button></a>            
 <?php } ?>
 <div class= "content-element col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <br><table id="data-table" class="table table-condensed table-hover table-striped">

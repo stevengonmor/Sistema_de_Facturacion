@@ -3,7 +3,7 @@
         <form method="POST" action='./?c=read_user&current_id=<?php echo $current_id ?>'>
             <div class="form-group">
                 <div class="form-control soft-blue-background row">
-                <input class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" type="text" name="email" placeholder="Buscar un usuario (e-mail)" required>
+                <input class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12" type="text" name="email" placeholder="Buscar un usuario (correo electrónico)" required>
                 </div>
                 <input class= "icon-padding btn btn-primary btn-sm col-xs-12 col-sm-12 col-md-10 col-lg-2 col-xl-2" type="submit" value="Buscar">  
             </div><br>
@@ -25,7 +25,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                            <h3 class="f-w-600">E-mail</h3>
+                            <h3 class="f-w-600">Correo Electrónico</h3>
                             <h6 class=""><?php echo $user->email ?></h6>
                             <br>
                         </div>
