@@ -5,7 +5,7 @@ Para ingresar al sistema primero debe iniciar sesión con un usuario
 
 >Usuario Administrador:
 >>Correo Electrónico: admin@admin.com  
->>Contraseña: 1234
+>>Contraseña: 1234  
 =
 
 
