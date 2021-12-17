@@ -21,11 +21,11 @@ $output .= '<table width="100%" border="1" cellpadding="5" cellspacing="0">
 	Para,<br />
 	<b>Cliente</b><br />
 	Nombre : '.$invoiceValues->customer_name.'<br /> 
-	Cedula : '.$invoiceValues->get_customer_cedula().'<br />
+	Cédula : '.$invoiceValues->get_customer_cedula().'<br />
 	</td>
 	<td width="35%">         
-	Numero de factura: '.$invoiceValues->order_id.'<br />
-	Fecha de emision: '.$invoiceDate.'<br />
+	Némero de factura: '.$invoiceValues->order_id.'<br />
+	Fecha de emisión: '.$invoiceDate.'<br />
 	</td>
 	</tr>
 	</table>

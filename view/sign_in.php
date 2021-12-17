@@ -13,7 +13,7 @@
             </div><br>
             <div class="form-control soft-blue-background">
                 <i class="icon-padding fa fa-envelope"></i>
-                <input class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-11" type="text" name="email" placeholder="Correo Electronico" required>
+                <input class = "col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-11" type="text" name="email" placeholder="Correo Electrónico" required>
             </div><br>
             <div class="form-control soft-blue-background">
                 <i class="icon-padding fa fa-key"></i>

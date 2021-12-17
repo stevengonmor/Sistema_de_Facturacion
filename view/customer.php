@@ -32,8 +32,8 @@
                             <h3 class="f-w-600">Teléfono</h3>
                             <h6><?php echo $customer->phone ?></h6>
                         </div>
-                                <a href ='?c=update_customer&id=<?php echo $customer->get_id() ?>'  class="btn btn-primary col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-5">Modificar</a>
-                                <a href ='?c=delete_customer&id=<?php echo $customer->get_id() ?>'  class="btn btn-danger offset-2 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-5">Dar de Baja</a>
+                                <a href ='?c=update_customer&id=<?php echo $customer->get_id() ?>'  class="btn btn-primary col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-5">Editar</a>
+                                <a href ='?c=delete_customer&id=<?php echo $customer->get_id() ?>'  class="btn btn-danger offset-2 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-5">Eliminar</a>
                     </div>
                 </div>
             </div>

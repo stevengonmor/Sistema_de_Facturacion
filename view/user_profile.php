@@ -40,12 +40,12 @@
                         <?php
                             if ($user->get_id() == $_SESSION['id'] || $_SESSION['rol']) {
                                 ?>
-                                <a href ='?c=update_user&id=<?php echo $user->get_id()?>'  class="btn btn-primary col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-5">Modificar</a>
+                                <a href ='?c=update_user&id=<?php echo $user->get_id()?>'  class="btn btn-primary col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-5">Editar</a>
                         <?php
                             }
                             if ($_SESSION['rol'] && !$user->rol) {
                         ?>                                
-                                <a href ='?c=delete_user&id=<?php echo $user->get_id()?>'  class="btn btn-danger offset-2 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-5">Dar de Baja</a>
+                                <a href ='?c=delete_user&id=<?php echo $user->get_id()?>'  class="btn btn-danger offset-2 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-5">Eliminar</a>
                                 <?php
                             }
                         ?>
