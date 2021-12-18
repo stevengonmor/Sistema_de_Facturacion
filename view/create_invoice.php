@@ -14,10 +14,10 @@
                     <input type="hidden" name="cashier_id" id="cashier_id" value="<?php echo $_SESSION['id']; ?>">
                 </div>
             </div>
-            <h3> Informacion del cliente </h3>
+            <h3> Información del cliente </h3>
             <hr>
             <div class="row-xs-12 row-sm-12 row-md-12 row-lg-12 row-xl-10">
-                    <div class="titulo col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">Codigo del cliente: <input type="text" name="customer_id" id="customer_id" value=""> 
+                    <div class="titulo col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">Código del cliente: <input type="text" name="customer_id" id="customer_id" value=""> 
                     </div>
 
             </div>
@@ -29,19 +29,19 @@
             </div>
             <hr>
             <div class="row-xs-12 row-sm-12 row-md-12 row-lg-12 row-xl-10">
-                    <div class="titulo col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">Cedula del cliente: <input type="text" name="customer_ced" id="customer_ced" value="">
+                    <div class="titulo col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">Cédula del cliente: <input type="text" name="customer_ced" id="customer_ced" value="">
                     </div> 
 
             </div>
             <hr>
             <div class="row-xs-12 row-sm-12 row-md-12 row-lg-12 row-xl-10">
-                    <div class="titulo col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">Numero de telefono: <input type="text" name="customer_phone" id="customer_phone" value="">
+                    <div class="titulo col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">Número de teléfono: <input type="text" name="customer_phone" id="customer_phone" value="">
                     </div>
         
             </div>
             <hr>
             <div class="row-xs-12 row-sm-12 row-md-12 row-lg-12 row-xl-10">
-                    <div class="titulo col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">Correo electronico: <input type="text" name="customer_email" id="customer_email" value=""></div>
+                    <div class="titulo col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-10">Correo electrónico: <input type="text" name="customer_email" id="customer_email" value=""></div>
                     
             </div>
         <hr>
@@ -55,7 +55,7 @@
                             <label class="custom-control-label" for="checkAll"></label>
                             </div>
                         </th>
-                        <th width="15%">Codigo de producto</th>
+                        <th width="15%">Código de producto</th>
                         <th width="38%">Nombre del producto</th>
                         <th width="15%">Cantidad</th>
                         <th width="15%">Precio Unitario</th>
