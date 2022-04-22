@@ -1,3 +1,6 @@
+#Proyecto de un Sistrema de Facturación
+También se cuenta con toda la documentación de la obtención de requerimientos, diseño con diagramas y screenshots de proceso de programación. En caso de requerir m´pas información, contactar a los owners.
+
 ***
 
 Para ingresar al sistema primero debe iniciar sesión con un usuario
